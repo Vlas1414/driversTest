@@ -4,7 +4,10 @@ import {TouchableNativeFeedback} from 'react-native-gesture-handler';
 export const RiderRow = ({familyName, givenName, namePress, ridePress}) => {
   return (
     <View style={styles.box}>
-      <TouchableNativeFeedback onPress={namePress} style={styles.nameBox}>
+      <TouchableNativeFeedback
+        onPress={namePress}
+        style={styles.nameBox}
+        background={TouchableNativeFeedback.Ripple('gray', true)}>
         <Text style={styles.rider}>{givenName}</Text>
         <Text style={styles.rider}>{familyName}</Text>
       </TouchableNativeFeedback>

@@ -2,10 +2,6 @@ import {LOAD_RIDERS, CHANGE_STATUS_LOADING, LOAD_RACES} from '../types';
 import {Http} from '../../http';
 import {Alert} from 'react-native';
 
-const errorCatcher = async (func, dispatch) => {
-  func();
-};
-
 export const loadRiders = (offset) => async (dispatch) => {
   try {
     dispatch({

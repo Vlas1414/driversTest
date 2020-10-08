@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {View, StyleSheet, ActivityIndicator, Text} from 'react-native';
 import {FlatList, TouchableNativeFeedback} from 'react-native-gesture-handler';
-import {HeaderButtons, Item} from 'react-navigation-header-buttons';
 import {FailLoading} from '../components/FailLoading';
 
 import {useDispatch, useSelector} from 'react-redux';
