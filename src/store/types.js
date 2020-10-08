@@ -1,0 +1,3 @@
+export const LOAD_RIDERS = 'LOAD_PHOTOS';
+export const CHANGE_STATUS_LOADING = 'CHANGE_STATUS_LOADING';
+export const LOAD_RACES = 'LOAD_RACES';
